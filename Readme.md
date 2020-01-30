@@ -55,6 +55,10 @@ franco                  123
 Now you can access the application in your browser on port 8888:
 [`http://localhost:8888`](http://localhost:8888)
 
+Give it a test and try to access this url:
+[`http://localhost:8888/6K1`](http://localhost:8888/6K1)
+You should be redirected to `http://php.net`
+
 ## The API Endpoints
 The app has seven routes as follows:
 ```
@@ -87,4 +91,3 @@ I have written some basic test cases using PHPSpec & PHPUnit, you can run the te
 ``./vendor/bin/phpspec run`` for PHPSpec
 
 
-s
